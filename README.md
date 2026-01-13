@@ -7,7 +7,7 @@
 Tap this repository:
 
 ```bash
-$ brew tap hastefuI/tap
+$ brew tap hastefui/tap
 ```
 
 Then install any of the available formulas:
@@ -34,7 +34,10 @@ $ ffrelayctl help
 
 **Documentation:** [GitHub Repository](https://github.com/hastefuI/ffrelayctl) | [Quick Start Guide](https://github.com/hastefuI/ffrelayctl?tab=readme-ov-file#quick-start)
 
----
+**Uninstallation:**
+```
+$ brew uninstall ffrelayctl
+```
 
 ## Updating
 
@@ -49,4 +52,11 @@ To update a specific formula:
 
 ```bash
 $ brew upgrade <formula-name>
+```
+
+## Uninstallation
+
+Untap this repository:
+```
+$ brew untap hastefui/tap
 ```
