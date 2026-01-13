@@ -5,21 +5,21 @@
 class Ffrelayctl < Formula
   desc "A CLI for Firefox Relay"
   homepage "https://github.com/hastefuI/ffrelayctl"
-  version "0.7.0"
+  version "0.7.1"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.0/ffrelayctl_0.7.0_macos_x86_64.tar.gz"
-      sha256 "ad770b5a4c4a46ad320db2a1ac7b550cef55807ab4781f6688d3c19b8ee12a1a"
+      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.1/ffrelayctl_0.7.1_macos_x86_64.tar.gz"
+      sha256 "d1c84935e933e306fcf24100c04caffc124e3158096755c8a27b7d7f0360dfda"
 
       def install
         bin.install "ffrelayctl"
       end
     end
     if Hardware::CPU.arm?
-      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.0/ffrelayctl_0.7.0_macos_arm64.tar.gz"
-      sha256 "be3c6ba84d8b00aff882b1dcc18cb65bd03ce57ec3b848cdb642997749105364"
+      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.1/ffrelayctl_0.7.1_macos_arm64.tar.gz"
+      sha256 "c3489bfb54389e7c32aac5061af366e36c904bdee406833d5a013778862941de"
 
       def install
         bin.install "ffrelayctl"
@@ -29,15 +29,15 @@ class Ffrelayctl < Formula
 
   on_linux do
     if Hardware::CPU.intel? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.0/ffrelayctl_0.7.0_linux_x86_64.tar.gz"
-      sha256 "81f308c194deca7b6b02cecd3ba7cc3e0b81976ef0efe6086a0933f99567edb8"
+      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.1/ffrelayctl_0.7.1_linux_x86_64.tar.gz"
+      sha256 "963563b4d520a298f3d6b8bdb9fc9e858b3a604487cb4d59effe98f27ae97378"
       def install
         bin.install "ffrelayctl"
       end
     end
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
-      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.0/ffrelayctl_0.7.0_linux_arm64.tar.gz"
-      sha256 "a7ed662dc1d8331d68876481171b9f878971fba0437f9eabf9a8a0b69b44fc2b"
+      url "https://github.com/hastefuI/ffrelayctl/releases/download/v0.7.1/ffrelayctl_0.7.1_linux_arm64.tar.gz"
+      sha256 "f53c0501e14eba816a605721081329f97ac1c94e34b79ccebf3f19c7e67fc452"
       def install
         bin.install "ffrelayctl"
       end
