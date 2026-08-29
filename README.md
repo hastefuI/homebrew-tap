@@ -10,14 +10,13 @@ Tap this repository:
 $ brew tap hastefui/tap
 ```
 
-Then install any of the available formulas or casks:
+Then install any of the available casks:
 
 ```bash
-$ brew install <formula-name>
 $ brew install --cask <cask-name>
 ```
 
-## Available Formulas
+## Available Casks
 
 ### ffrelayctl
 
@@ -25,7 +24,7 @@ A CLI for Firefox Relay - manage your email masks from the command line.
 
 **Installation:**
 ```bash
-$ brew install ffrelayctl
+$ brew install --cask ffrelayctl
 ```
 
 **Usage:**
@@ -37,10 +36,8 @@ $ ffrelayctl help
 
 **Uninstallation:**
 ```
-$ brew uninstall ffrelayctl
+$ brew uninstall --cask ffrelayctl
 ```
-
-## Available Casks
 
 ### recall
 
@@ -65,17 +62,16 @@ $ brew uninstall --cask recall
 
 ## Updating
 
-To update all installed formulas and casks to their latest versions:
+To update all installed casks to their latest versions:
 
 ```bash
 $ brew update
 $ brew upgrade
 ```
 
-To update a specific formula or cask:
+To update a specific cask:
 
 ```bash
-$ brew upgrade <formula-name>
 $ brew upgrade --cask <cask-name>
 ```
 
